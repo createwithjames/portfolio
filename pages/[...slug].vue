@@ -1,5 +1,5 @@
 <template>
   <div>
-    <ContentDoc class="prose prose-headings:text-white" />
+    <ContentDoc />
   </div>
 </template>
