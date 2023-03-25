@@ -27,11 +27,6 @@
                 'group flex w-full items-center rounded-md px-2 py-2 text-sm',
               ]"
             >
-              <EditIcon
-                :active="active"
-                class="mr-2 h-5 w-5 text-violet-400"
-                aria-hidden="true"
-              />
               Edit
             </button>
           </MenuItem>
@@ -42,11 +37,6 @@
                 'group flex w-full items-center rounded-md px-2 py-2 text-sm',
               ]"
             >
-              <DuplicateIcon
-                :active="active"
-                class="mr-2 h-5 w-5 text-violet-400"
-                aria-hidden="true"
-              />
               Duplicate
             </button>
           </MenuItem>
@@ -59,11 +49,6 @@
                 'group flex w-full items-center rounded-md px-2 py-2 text-sm',
               ]"
             >
-              <ArchiveIcon
-                :active="active"
-                class="mr-2 h-5 w-5 text-violet-400"
-                aria-hidden="true"
-              />
               Archive
             </button>
           </MenuItem>
@@ -74,11 +59,6 @@
                 'group flex w-full items-center rounded-md px-2 py-2 text-sm',
               ]"
             >
-              <MoveIcon
-                :active="active"
-                class="mr-2 h-5 w-5 text-violet-400"
-                aria-hidden="true"
-              />
               Move
             </button>
           </MenuItem>
@@ -92,11 +72,6 @@
                 'group flex w-full items-center rounded-md px-2 py-2 text-sm',
               ]"
             >
-              <DeleteIcon
-                :active="active"
-                class="mr-2 h-5 w-5 text-violet-400"
-                aria-hidden="true"
-              />
               Delete
             </button>
           </MenuItem>
@@ -108,12 +83,4 @@
 
 <script setup>
 import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
-import {
-  ChevronDownIcon,
-  ArchiveIcon,
-  DuplicateIcon,
-  MoveIcon,
-  EditIcon,
-  DeleteIcon,
-} from "@heroicons/vue/20/solid";
 </script>
