@@ -3,9 +3,7 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="flex">
         <div class="flex-1">
-          <h1
-            class="text-3xl font-extrabold text-white sm:text-5xl lg:text-6xl"
-          >
+          <h1 class="text-3xl font-bold text-white sm:text-5xl lg:text-6xl">
             <span
               class="max-w-3xl font-mono text-lg tracking-normal text-primary"
             >

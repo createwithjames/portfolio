@@ -1,6 +1,23 @@
 ---
 title: "James Phillips"
 description: "Unleash your digital potential with a stunning web presence that captivates your audience. Let's work together to bring your brand to life."
+cards:
+  - name: "Haysto"
+    description: "This is the Haysto description"
+    link: "https://www.haysto.com"
+    skills:
+      - name: "Vue"
+        color: "lime"
+      - name: "Tailwind"
+        color: "cyan"
+      - name: "Statamic"
+        color: "pink"
+  - name: "SEHBAC"
+    description: "This is the SEHBAC description"
+    link: "https://www.sehbac.com"
+    skills:
+      - name: "Wordpress"
+        color: "blue"
 ---
 
 ::hero
@@ -12,5 +29,4 @@ James Phillips.
 Hey there! I'm a website developer based in Somerset, and I love building awesome digital experiences. Whether it's designing a stunning website or crafting engaging interfaces, I've got you covered. Right now, I'm working with Haysto to level up their internal web tools.
 ::
 
-::slider
-::
+<CardGrid :cards="cards" />
