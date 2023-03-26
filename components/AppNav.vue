@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed w-full border-b border-gray-700 px-4 py-2 sm:px-6"
+    class="fixed w-full border-b border-gray-700 px-4 py-2 sm:px-8"
     :class="{
       'bg-slate-900/75 backdrop-blur': scroll,
       'bg-transparent': !scroll,

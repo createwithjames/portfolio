@@ -2,7 +2,7 @@
   <header>
     <AppNav />
   </header>
-  <main class="pt-16">
+  <main>
     <div>
       <slot />
     </div>
