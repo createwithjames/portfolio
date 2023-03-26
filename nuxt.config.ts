@@ -27,4 +27,12 @@ export default defineNuxtConfig({
       theme: "one-dark-pro",
     },
   },
+  runtimeConfig: {
+    ipx: {
+      dir: "../../assets",
+    },
+  },
+  image: {
+    dir: "public/img",
+  },
 });

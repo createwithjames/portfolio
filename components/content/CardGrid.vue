@@ -23,7 +23,7 @@
             :key="card.name"
           >
             <div v-if="card.image" class="absolute z-0 w-full">
-              <nuxt-img
+              <img
                 class="w-full object-cover"
                 :src="card.image"
                 width="393"

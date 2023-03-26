@@ -21,7 +21,7 @@
         </div>
         <div class="grid place-items-center">
           <div class="aspect-square overflow-hidden rounded-lg">
-            <nuxt-img class="object-cover" :src="props.image" />
+            <img class="object-cover" :src="props.image" />
           </div>
         </div>
       </div>

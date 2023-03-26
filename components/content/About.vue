@@ -15,10 +15,11 @@
         >
           <div class="col-span-2 flex flex-col gap-8">
             <div class="w-full overflow-hidden rounded-lg">
-              <nuxt-img
+              <img
                 class="aspect-square h-full object-cover"
                 :src="props.image"
                 alt=""
+                loading="lazy"
               />
             </div>
             <div class="flex flex-col gap-4">
