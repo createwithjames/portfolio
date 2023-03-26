@@ -80,7 +80,7 @@ tabs:
 [March 2022 - Present]{.flex.font-mono.-mt-4}
 
 - Develop modern, high-performing, and maintainable code for the website and CRM tools.
-- Utilize a variety of languages, platforms, frameworks, and content management systems, including JavaScript, Vue, Statamic, Inertia, and Laravel.
+- Utilise a variety of languages, platforms, frameworks, and content management systems, including JavaScript, Vue, Statamic, Inertia, and Laravel.
 - Collaborate closely with cross-functional teams of engineers, designers, producers, and stakeholders on a daily basis to ensure effective communication and timely delivery of projects.
 
 #moresoda
@@ -124,7 +124,7 @@ tabs:
 - Project managing the website content calendar to align with the annual marketing strategy.
 - Stakeholder management.
 - Content auditing and migration.
-- Charing cross-department meetings
+- Chairing cross-department meetings
 
 #mcdonalds
 
@@ -148,8 +148,8 @@ tabs:
 ::card-grid
 ---
 
-pretitle: "Here's the best of"
-title: "The things I've built"
+pretitle: "Here is is a selection of"
+title: "My work"
 cards:
 
 - name: "Haysto"
