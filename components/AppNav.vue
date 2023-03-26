@@ -17,25 +17,22 @@
         <a
           href="#about"
           class="text-white/75 hover:text-primary/75 font-medium transision-all duration-200 ease-in-out"
-          >About Me</a
         >
+          About Me
+        </a>
         <a
           href="#experience"
           class="text-white/75 hover:text-primary/75 font-medium transision-all duration-200 ease-in-out"
-          >Experience</a
         >
+          Experience
+        </a>
         <a
           href="#work"
           class="text-white/75 hover:text-primary/75 font-medium transision-all duration-200 ease-in-out"
-          >Work</a
         >
-        <a
-          href="#blog"
-          class="text-white/75 hover:text-primary/75 font-medium transision-all duration-200 ease-in-out"
-          >Contact</a
-        >
+          Work
+        </a>
       </nav>
-      <AppDropdown class="md:hidden" />
     </div>
   </div>
 </template>
