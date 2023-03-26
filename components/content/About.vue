@@ -1,9 +1,9 @@
 <template>
-  <section class="flex items-center py-32">
+  <section class="section flex items-center py-32" id="about">
     <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-16">
       <div class="flex flex-col justify-center gap-8">
         <div class="text-center">
-          <h2 class="flex flex-col text-2xl font-bold text-white sm:text-5xl">
+          <h2 class="flex flex-col text-4xl font-bold text-white sm:text-5xl">
             <span class="font-mono text-base tracking-normal text-primary">
               {{ props.pretitle }}
             </span>
@@ -13,10 +13,12 @@
         <div
           class="mx-auto grid max-w-3xl grid-cols-1 gap-y-16 sm:grid-cols-5 sm:gap-16"
         >
-          <div class="col-span-2 flex flex-col gap-8">
+          <div
+            class="col-span-2 flex flex-col gap-8 row-start-2 sm:row-start-auto"
+          >
             <div class="w-full overflow-hidden rounded-lg">
               <img
-                class="aspect-square h-full object-cover"
+                class="aspect-square h-full object-cover hidden sm:block"
                 :src="props.image"
                 alt=""
                 loading="lazy"
@@ -68,7 +70,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-span-3">
+          <div class="col-span-3 row-start-1 sm:row-start-auto">
             <div
               class="prose text-lg font-light leading-relaxed tracking-wide text-white/75 prose-a:text-white"
             >

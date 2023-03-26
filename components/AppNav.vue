@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed w-full border-b border-gray-700 px-4 py-2 sm:px-8"
+    class="fixed w-full border-b border-gray-700 px-4 py-4 sm:px-8"
     :class="{
       'bg-slate-900/75 backdrop-blur': scroll,
       'bg-transparent': !scroll,
@@ -13,7 +13,29 @@
       >
         <span class="font-mono">James Phillips</span>
       </NuxtLink>
-      <AppDropdown />
+      <nav class="hidden md:flex gap-4 font-mono">
+        <a
+          href="#about"
+          class="text-white/75 hover:text-primary/75 font-medium transision-all duration-200 ease-in-out"
+          >About Me</a
+        >
+        <a
+          href="#experience"
+          class="text-white/75 hover:text-primary/75 font-medium transision-all duration-200 ease-in-out"
+          >Experience</a
+        >
+        <a
+          href="#work"
+          class="text-white/75 hover:text-primary/75 font-medium transision-all duration-200 ease-in-out"
+          >Work</a
+        >
+        <a
+          href="#blog"
+          class="text-white/75 hover:text-primary/75 font-medium transision-all duration-200 ease-in-out"
+          >Contact</a
+        >
+      </nav>
+      <AppDropdown class="md:hidden" />
     </div>
   </div>
 </template>

@@ -1,13 +1,13 @@
 <template>
-  <section class="flex items-center py-32">
+  <section class="flex items-center py-32" id="work">
     <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col gap-8">
         <div class="text-center">
           <h2
-            class="flex flex-col items-center justify-center text-2xl font-bold text-white sm:text-4xl lg:text-5xl"
+            class="flex flex-col items-center justify-center text-4xl font-bold text-white sm:text-4xl lg:text-5xl"
           >
             <span
-              class="max-w-3xl font-mono text-lg tracking-normal text-primary"
+              class="max-w-3xl font-mono text-base tracking-normal text-primary"
             >
               {{ props.pretitle }}
             </span>
