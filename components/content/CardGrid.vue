@@ -35,12 +35,15 @@
             <div class="flex flex-wrap gap-2">
               <div v-for="skill in card.skills" :key="skill.name + card.name">
                 <span
-                  class="inline-flex items-center rounded-full bg-slate-700 px-3 py-0.5 text-sm font-medium"
+                  class="inline-flex items-center rounded-full px-3 py-0.5 text-sm font-medium"
                   :class="{
+                    'bg-slate-700 text-white': !skill.color,
                     'bg-green-700/30 text-green-400': skill.color === 'lime',
                     'bg-blue-700/30 text-blue-400': skill.color === 'blue',
                     'bg-cyan-700/30 text-cyan-400': skill.color === 'cyan',
                     'bg-pink-700/30 text-pink-400': skill.color === 'pink',
+                    'bg-yellow-700/30 text-yellow-400':
+                      skill.color === 'yellow',
                   }"
                 >
                   {{ skill.name }}
