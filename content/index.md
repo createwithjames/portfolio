@@ -148,7 +148,7 @@ tabs:
 ::card-grid
 ---
 
-pretitle: "Here is is a selection of"
+pretitle: "Here is a selection of"
 title: "My work"
 cards:
 

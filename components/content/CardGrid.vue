@@ -24,7 +24,7 @@
           >
             <div
               v-if="card.image"
-              class="absolute z-0 h-full w-full before:absolute before:inset-0 before:z-10 before:bg-primary before:mix-blend-multiply before:transition-all before:duration-200 before:content-[''] group-hover:before:bg-inherit"
+              class="absolute z-0 h-full w-full before:absolute before:inset-0 before:z-10 before:bg-primary/75 before:mix-blend-multiply before:transition-all before:duration-200 before:content-[''] group-hover:before:bg-inherit"
             >
               <img
                 class="z-0 w-full object-cover grayscale group-hover:grayscale-0"
