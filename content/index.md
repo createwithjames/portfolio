@@ -186,7 +186,7 @@ cards:
   - name: "Liquid"
     color: "sky"
 - name: "Zehnder"
-  description: "A Craft site with leveraging the Craft Commerce plugin"
+  description: "A Craft Commerce site with a large product range"
   link: "https://zehnder-radiators.co.uk/"
   image: "/img/zehnder.png"
   skills:
