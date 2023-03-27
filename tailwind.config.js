@@ -25,4 +25,5 @@ module.exports = {
     },
   },
   plugins: [require("@tailwindcss/typography")],
+  safelist: ["-mt-6"],
 };

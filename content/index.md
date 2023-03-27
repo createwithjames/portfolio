@@ -77,7 +77,7 @@ tabs:
 
 ## Frontend Developer [@Haysto](https://www.haysto.com)
 
-[March 2022 - Present]{.flex.font-mono.-mt-4}
+[March 2022 - Present]{.flex.font-mono.-mt-6}
 
 - Develop modern, high-performing, and maintainable code for the website and CRM tools.
 - Utilise a variety of languages, platforms, frameworks, and content management systems, including JavaScript, Vue, Statamic, Inertia, and Laravel.
@@ -87,7 +87,7 @@ tabs:
 
 ## Website Developer [@Moresoda](https://moresoda.co.uk/)
 
-[Feb 2020 - March 2022]{.flex.font-mono.-mt-4}
+[Feb 2020 - March 2022]{.flex.font-mono.-mt-6}
 
 - Creating websites using HTML/CSS/JavaScript
 - Liaising with designers and programmers for web-based projects
@@ -102,7 +102,7 @@ tabs:
 
 ## Website Developer [@Purplex](https://www.purplexmarketing.com/)
 
-[June 2017 - Feb 2020]{.flex.font-mono.-mt-4}
+[June 2017 - Feb 2020]{.flex.font-mono.-mt-6}
 
 - Design & build modern, responsive websites
 - Build robust functionality coded with PHP & JS and editable with WordPress and ACF
@@ -114,7 +114,7 @@ tabs:
 
 ## Website Editor [@Unite Students](https://www.unitestudents.com/)
 
-[June 2016 - July 2017]{.flex.font-mono.-mt-4}
+[June 2016 - July 2017]{.flex.font-mono.-mt-6}
 
 - B2C copywriting.
 - SEO sale campaigns boosting conversion rates
@@ -130,7 +130,7 @@ tabs:
 
 ## Internal Website Editor [@McDonald's](https://www.mcdonalds.com/gb/en-gb.html)
 
-[Nov 2014 - June 2016]{.flex.font-mono.-mt-4}
+[Nov 2014 - June 2016]{.flex.font-mono.-mt-6}
 
 - Website management of ourlounge.co.uk
 - Content strategy & writing

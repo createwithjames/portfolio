@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed w-full border-b border-gray-700 px-4 py-4 sm:px-8 z-20"
+    class="fixed z-20 w-full border-b border-gray-700 px-4 py-4 sm:px-8"
     :class="{
       'bg-slate-900/75 backdrop-blur': scroll,
       'bg-transparent': !scroll,
@@ -13,24 +13,30 @@
       >
         <span class="font-mono">James Phillips</span>
       </NuxtLink>
-      <nav class="hidden md:flex gap-4 font-mono">
+      <nav class="hidden gap-4 font-mono md:flex">
         <a
           href="#about"
-          class="text-white/75 hover:text-primary/75 font-medium transision-all duration-200 ease-in-out"
+          class="transision-all font-medium text-white/75 duration-200 ease-in-out hover:text-primary/75"
         >
           About Me
         </a>
         <a
           href="#experience"
-          class="text-white/75 hover:text-primary/75 font-medium transision-all duration-200 ease-in-out"
+          class="transision-all font-medium text-white/75 duration-200 ease-in-out hover:text-primary/75"
         >
           Experience
         </a>
         <a
           href="#work"
-          class="text-white/75 hover:text-primary/75 font-medium transision-all duration-200 ease-in-out"
+          class="transision-all font-medium text-white/75 duration-200 ease-in-out hover:text-primary/75"
         >
           Work
+        </a>
+        <a
+          href="#contact"
+          class="transision-all font-medium text-white/75 duration-200 ease-in-out hover:text-primary/75"
+        >
+          Contact
         </a>
       </nav>
     </div>

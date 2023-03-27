@@ -3,22 +3,26 @@
     <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-16">
       <div class="flex flex-col justify-center gap-8">
         <div class="text-center">
-          <h2 class="flex flex-col text-4xl font-bold text-white sm:text-5xl">
-            <span class="font-mono text-base tracking-normal text-primary">
+          <h2 class="flex flex-col text-3xl font-bold text-white sm:text-5xl">
+            <span
+              class="font-mono text-sm sm:text-base tracking-normal text-primary"
+            >
               {{ props.pretitle }}
             </span>
             <span class="leading-relaxed"> {{ props.title }}</span>
           </h2>
         </div>
         <div
-          class="mx-auto grid max-w-3xl grid-cols-1 gap-y-16 sm:grid-cols-5 sm:gap-16"
+          class="mx-auto grid max-w-3xl grid-cols-1 gap-y-8 sm:grid-cols-5 sm:gap-16"
         >
           <div
-            class="col-span-2 flex flex-col gap-8 row-start-2 sm:row-start-auto"
+            class="col-span-2 row-start-2 flex flex-col gap-8 sm:row-start-auto"
           >
-            <div class="w-full overflow-hidden rounded-lg">
+            <div
+              class="relative hidden w-full overflow-hidden rounded-lg before:absolute before:inset-0 before:z-10 before:bg-primary before:bg-blend-multiply before:mix-blend-multiply before:transition-all before:duration-200 before:content-[''] hover:before:bg-inherit sm:block"
+            >
               <img
-                class="aspect-square h-full object-cover hidden sm:block"
+                class="aspect-square h-full object-cover grayscale"
                 :src="props.image"
                 alt=""
                 loading="lazy"
@@ -72,7 +76,7 @@
           </div>
           <div class="col-span-3 row-start-1 sm:row-start-auto">
             <div
-              class="prose text-lg font-light leading-relaxed tracking-wide text-white/75 prose-a:text-white"
+              class="prose text-base sm:text-lg font-light leading-relaxed tracking-wide text-white/75 prose-a:text-white"
             >
               <slot />
             </div>

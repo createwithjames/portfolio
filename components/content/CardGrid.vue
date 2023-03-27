@@ -1,13 +1,13 @@
 <template>
   <section class="flex items-center py-32" id="work">
-    <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-16">
       <div class="flex flex-col gap-8">
         <div class="text-center">
           <h2
-            class="flex flex-col items-center justify-center text-4xl font-bold text-white sm:text-4xl lg:text-5xl"
+            class="flex flex-col items-center justify-center text-3xl font-bold text-white sm:text-5xl"
           >
             <span
-              class="max-w-3xl font-mono text-base tracking-normal text-primary"
+              class="max-w-3xl font-mono text-sm sm:text-base tracking-normal text-primary"
             >
               {{ props.pretitle }}
             </span>
@@ -19,12 +19,15 @@
             :href="card.link"
             target="_blank"
             v-for="card in props.cards"
-            class="relative flex flex-col gap-2 overflow-hidden rounded border border-slate-700 bg-slate-900 transition-all duration-200 ease-in-out hover:border-primary"
+            class="group:transition- group relative flex flex-col gap-2 overflow-hidden rounded border border-slate-700 bg-slate-900 duration-200 ease-in-out hover:border-primary"
             :key="card.name"
           >
-            <div v-if="card.image" class="absolute z-0 w-full">
+            <div
+              v-if="card.image"
+              class="absolute z-0 h-full w-full before:absolute before:inset-0 before:z-10 before:bg-primary before:mix-blend-multiply before:transition-all before:duration-200 before:content-[''] group-hover:before:bg-inherit"
+            >
               <img
-                class="w-full object-cover"
+                class="z-0 w-full object-cover grayscale group-hover:grayscale-0"
                 :src="card.image"
                 width="393"
                 loading="lazy"
@@ -34,13 +37,11 @@
               class="z-10 flex h-full flex-col justify-between gap-8 bg-gradient-to-t from-slate-800 via-slate-800 to-transparent p-4"
             >
               <div class="pt-40">
-                <h3
-                  class="mb-2 text-lg font-bold text-white sm:text-2xl lg:text-2xl"
-                >
+                <h3 class="mb-2 text-lg font-bold text-white sm:text-xl">
                   {{ card.name }}
                 </h3>
                 <span
-                  class="mt-6 max-w-3xl font-light leading-relaxed tracking-wide text-white/75"
+                  class="mt-6 max-w-3xl font-light leading-relaxed tracking-wide text-white/75 text-sm"
                 >
                   {{ card.description }}
                 </span>
