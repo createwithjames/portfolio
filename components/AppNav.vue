@@ -56,5 +56,28 @@ onMounted(() => {
       scroll.value = false;
     }
   });
+
+  const sections = document.querySelectorAll("section");
+  const observer = new IntersectionObserver(
+    (entries) => {
+      if (entries[0].isIntersecting) {
+        const section = entries[0].target;
+        const nav = document.querySelector(`[href="#${section.id}"]`);
+        const active = document.querySelector(".active");
+        if (active) {
+          active.classList.remove("active", "text-primary");
+          active.classList.add("text-white/75");
+        }
+        console.log(nav);
+        nav.classList.add("active", "text-primary");
+        nav.classList.remove("text-white/75");
+      }
+    },
+    { rootMargin: "-100px" }
+  );
+
+  sections.forEach((section) => {
+    observer.observe(section);
+  });
 });
 </script>

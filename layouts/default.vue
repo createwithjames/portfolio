@@ -2,11 +2,14 @@
   <header>
     <AppNav />
   </header>
-  <main>
-    <div>
-      <slot />
-    </div>
-  </main>
+  <div class="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-16">
+    <AppFixedLinks />
+    <main>
+      <div>
+        <slot />
+      </div>
+    </main>
+  </div>
   <footer>
     <AppFooter :content="content" />
   </footer>
